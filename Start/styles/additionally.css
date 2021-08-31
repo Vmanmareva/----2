@@ -13,6 +13,13 @@ body, html {
     background-color: #FFFFFF;
 }
 
+.button_start {
+    border: none;
+    margin: auto;
+    outline: none !important;
+    background-color: #FFFFFF;
+}
+
 .button1 {
     border-radius: 5px;
     border: none;
@@ -77,6 +84,7 @@ body, html {
 }
 
 .qa_id {
+    border-radius: 5px 5px 0 0;
     background-color: #FFFFFF;
     font-family: Sen;
     font-size: 24px;
@@ -84,8 +92,14 @@ body, html {
     color: #0B3A55;
 }
 
+.qa_img {
+    margin: auto;
+    padding: 30px 0;
+}
+
 .navbar {
-    background-color: #FFFFFF;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(30deg, #cff8ee, rgb(255, 255, 255));
     font-family: Sen;
     font-size: 16px;
     color: #0B3A55;
@@ -94,7 +108,8 @@ body, html {
 }
 
 .text {
-    background-color: #FFFFFF;
+    border-radius: 10px;
+    background: linear-gradient(30deg, #cff8ee, rgb(255, 255, 255));
     font-family: Sen;
     font-size: 24px;
     padding: 2%;
