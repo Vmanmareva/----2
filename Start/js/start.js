@@ -1,4 +1,4 @@
-var str = "1642 год — Блез Паскаль представляет «Паскалину» — первое реально осуществлённое и получившее известность механическое цифровое вычислительное устройство. Прототип устройства суммировал и вычитал пятиразрядные десятичные числа.";
+var str = "Все нетривиальные абстракции дырявы — Джоэл Спольски в виде закона дырявых абстракций.";
 var result = "";
  
 (function(chars) {
@@ -6,6 +6,6 @@ var result = "";
     result += char;
     document.getElementById('hints_id').innerHTML= result;
     if (chars.length) {
-        setTimeout(arguments.callee, Math.random() * 300 + 50, chars);
+        setTimeout(arguments.callee, Math.random() * 100 + 50, chars);
     }
 })(str.split(""));
