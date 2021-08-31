@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="text/html">
+
+    <link rel="stylesheet" href="styles/qa.css">
+    <title>Start</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var c = 0;
+        function Engine(num) {
+            if (num == 0) { c++ }
+            else { var obj = document.getElementById('Txt' + (num)); obj.innerHTML = (num) + ", " }
+        }
+
+
+        function ca() {
+            var obj = document.getElementById('Txt');
+            obj.innerHTML = (x);
+        }
+
+
+        function show(divid) {
+            if (document.getElementById(divid).style.display == "none") {
+                document.getElementById(divid).style.display = "inline";
+            }
+            else {
+                document.getElementById(divid).style.display = "none";
+            }
+        }
+
+        function otv() {
+            var score = c; x = score
+
+            {
+                if (score <= 100) {
+                    document.getElementById(divid = "otv1").style.display = "inline";
+                }
+
+                {
+                    if (score >= 100 && score <= 110) {
+                        document.getElementById(divid = "otv2").style.display = "inline";
+                    }
+
+                    {
+                        if (score >= 110 && score <= 200) {
+                            document.getElementById(divid = "otv3").style.display = "inline";
+                        }
+
+                        {
+                            if (score >= 210 && score <= 300) {
+                                document.getElementById(divid = "otv4").style.display = "inline";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    </script>
+
+
+
+    <TABLE width="580" height="170">
+        <TR>
+            <TD width="580">
+                    <div>   <p>1 тест на проверку знания теории тестирования.</p>
+                            Темы вопросов: Тестирование, Цели и задачи тестирования, Время начала тестирования, Дефект, 
+                            Сбой и Отказ, 7 Принципов тестирования.
+                            <p>В тесте только один правильный ответ. Отметив его, вы не можете вернуться обратно.</p> </div>
+                <div id="go" style="DISPLAY: inline">
+                    <form id="go">
+
+
+                        <INPUT type=button value="Пройти" onClick="show('test');show('go')">
+                        </h6>
+                    </form>
+                </div>
+
+
+
+                <!--1-->
+                <div id="test" style="DISPLAY:none">
+                    <form id="vop1">
+                        <P align="center">1 из 7<br><br></p>
+                        <P><strong>Какое из перечисленных утверждений верно?</strong></P>
+                        <a id="1" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">a)
+                            Тестирование может повысить качество ПО</a><br>
+                        <a id="0" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">b)
+                            Тестирование является частью процесса обеспечения качества</a><br>
+                        <a id="1" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">c)
+                            Тестирование является обеспечением качества ПО</a><br>
+                    </form>
+                </div>
+
+
+                <!--2-->
+                <div id="test1" style="DISPLAY:none">
+                    <form id="vop2">
+                        <P align="center">2 из 7<br><br></p>
+                        <P><strong>Что из перечисленного является целью тестирования?</strong></P>
+                        <a id="2" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">a)
+                            Обнаружение дефектов в ПО, обеспечить 100 процентное покрытие продукта проверками</a><br>
+                        <a id="0" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">b)
+                            Убедиться, что ПО отвечает оригинальным требованиям и спецификации</a><br>
+                        <a id="2" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">c)
+                            Увеличение проектных рисков и предотвращение возникновения дефектов в будущем</a><br>
+                    </form>
+                </div>
+
+
+
+                <!--3-->
+                <div id="test2" style="DISPLAY:none">
+                    <form id="vop3">
+                        <P align="center">3 из 7<br><br></p>
+                        <P><strong>Когда следует начинать тестировать ПО?</strong></P>
+
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')" id="3">a) Как
+                            только написаны все тест-кейсы</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')" id="3">b) Как
+                            только закончился релиз</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')" id="0">c) Как
+                            только это возможно</a><br>
+                    </form>
+                </div>
+
+
+
+
+
+                <!--4-->
+                <div id="test3" style="DISPLAY:none">
+                    <form id="vop4">
+                        <P align="center">4 из 7<br><br></p>
+                        <P><strong>Невозможно подключиться к удаленному серверу при отсутствии интернета. Что это?</strong></P>
+
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')" id="4">a)
+                            Дефект, но не отказ.</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')" id="0">b)
+                            Отказ, но не дефект.</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')" id="4">c)
+                            Дефект, приводящий к отказу.</a><br>
+
+                    </form>
+                </div>
+
+
+
+                <!--5-->
+                <div id="test4" style="DISPLAY:none">
+                    <form id="vop5">
+                        <P align="center">5 из 7<br><br></p>
+                        <P><strong>Какой из принципов тестирования говорит о невозможности покрыть кейсами весь продукт? </strong></P>
+
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')" id="5">a)
+                            Парадокс пестицида</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')" id="5">b)
+                            Тестирование зависит от контекста</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')" id="0">c)
+                            Исчерпывающее тестирование невозможно</a><br>
+                    </form>
+                </div>
+
+
+
+
+                <!--6-->
+                <div id="test5" style="DISPLAY:none">
+                    <form id="vop6">
+                        <P align="center">6 из 7<br><br></p>
+                        <P><strong>Всегда ли тестирование подразумевает запуск программного обеспечения?</strong></P>
+
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')" id="0">a)
+                            Нет</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')" id="6">b)
+                            Да</a><br>
+                    </form>
+                </div>
+
+
+                <!--7-->
+                <div id="test6" style="DISPLAY:none">
+                    <form id="vop7">
+                        <P align="center">7 из 7<br><br></p>
+                        <P><strong>В каком случае можно доказать отсутсвие дефектов?</strong></P>
+
+                        <a style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test6')" id="7">a)
+                            При исчерпывающем тестировании</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test6')" id="0">b)
+                            При комбинации различных проверок в течении долгого времени</a><br>
+                        <a style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test6')" id="7">c)
+                            Это невозможно</a><br>
+                    </form>
+                </div>
+
+
+
+
+
+                <!--Ответ 1-->
+                <div id="otv1" style="DISPLAY:none">
+                    <form id="ot1">
+                        <P align="center"><strong>тест пройден</strong><br><br>из 7 вопросов у вас <a
+                                style="color:#404040" id="Txt">0</a> правильных ответов.<br><br>
+
+                        <p align="center">неправилные ответы на вопросы <a id="Txt1"></a><a id="Txt2"></a><a
+                                id="Txt3"></a><a id="Txt4"></a><a id="Txt5"></a><a id="Txt6"></a><a id="Txt7"></a></p>
+                        </F><br><br>
+                    </form>
+                </div>
+</body>
+
+</html>
