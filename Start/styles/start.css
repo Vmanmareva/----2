@@ -1,0 +1,94 @@
+body, html {
+	background-color: #0B3A55;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-basis: auto;
+	background-color: #FFFFFF;
+}
+
+.button1 {
+	border: none;
+	margin: auto;
+	outline: none !important;
+	color: #0B3A55;
+	font-family: Sen;
+	background-color: #92E3A9;
+	padding: 0.5%;
+	font-size: 24px;
+}
+
+.button2 {
+	border: none;
+	margin: auto;
+	outline: none;
+	color: #0B3A55;
+	text-decoration: none;
+	font-family: Sen;
+	background-color: #92E3A9;
+	padding: 0.5%;
+	font-size: 24px;
+}
+
+.button3 {
+	border: none;
+	margin: auto;
+	outline: none;
+	color: #0B3A55;
+	text-decoration: none;
+	font-family: Sen;
+	background-color: #92E3A9;
+	padding: 0.5%;
+	font-size: 24px;
+}
+
+.button4 {
+	border: none;
+	margin: auto;
+	outline: none;
+	color: #0B3A55;
+	text-decoration: none;
+	font-family: Sen;
+	background-color: #92E3A9;
+	padding: 0.5%;
+	font-size: 24px;
+}
+
+.start {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-basis: auto;
+	background-color: #0B3A55;
+}
+
+.Start_modul_1 {
+	border: none;
+	margin: auto;
+	outline: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Sen;
+	padding: 1% 3%;
+	font-size: 24px;
+}
+
+.Start_modul_12 {
+	margin: auto;
+	color: #FFFFFF;
+	font-family: Sen;
+	padding: 1% 3%;
+	font-size: 85px;
+}
+
+.Start_img {
+	padding: 1% 3%;
+}
+
+img {
+	margin: auto;
+	padding: 0px 30px;
+}

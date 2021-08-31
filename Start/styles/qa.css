@@ -1,0 +1,96 @@
+body, html {
+    background-color: #0B3A55;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: auto;
+    background-color: #FFFFFF;
+}
+
+.button1 {
+    border: none;
+    margin: auto;
+    outline: none !important;
+    color: #0B3A55;
+    font-family: Sen;
+    background-color: #92E3A9;
+    padding: 0.5%;
+    font-size: 24px;
+}
+
+.button2 {
+    border: none;
+    margin: auto;
+    outline: none;
+    color: #0B3A55;
+    text-decoration: none;
+    font-family: Sen;
+    background-color: #92E3A9;
+    padding: 0.5%;
+    font-size: 24px;
+}
+
+.button3 {
+    border: none;
+    margin: auto;
+    outline: none;
+    color: #0B3A55;
+    text-decoration: none;
+    font-family: Sen;
+    background-color: #92E3A9;
+    padding: 0.5%;
+    font-size: 24px;
+}
+
+.button4 {
+    border: none;
+    margin: auto;
+    outline: none;
+    color: #0B3A55;
+    text-decoration: none;
+    font-family: Sen;
+    background-color: #92E3A9;
+    padding: 0.5%;
+    font-size: 24px;
+}
+
+
+.center {
+    display: flex;
+    flex-direction:row;
+    padding: 2%;
+}
+.menu {
+    display: flex;
+    flex-direction:column;
+    padding: 2%;
+}
+
+.qa_id{
+
+    background-color: #FFFFFF;
+    font-family: Sen;
+    font-size: 24px;
+    padding: 2%;
+    color: #0B3A55;
+}
+.navbar {
+
+    background-color: #FFFFFF;
+    font-family: Sen;
+    font-size: 16px;
+    color: #0B3A55;
+    padding: 2%;
+    text-decoration: none;
+}
+.text {
+    background-color: #FFFFFF;
+    font-family: Sen;
+    font-size: 24px;
+    padding: 2%;
+    color: #0B3A55;
+    width: 900px;
+}
