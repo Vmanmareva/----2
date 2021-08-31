@@ -94,3 +94,18 @@ body, html {
     color: #0B3A55;
     width: 900px;
 }
+
+li{ 
+    list-style-type: none;
+   } 
+
+   li::before {
+    content: '‣'; 
+}
+
+a{
+    text-decoration: none; 
+    color: #0B3A55;
+    font-family: Sen;
+
+}
